@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#space should not be needed
 
 person1=modi
 person2=musk
