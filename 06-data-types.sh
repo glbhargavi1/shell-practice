@@ -1,6 +1,6 @@
 #!/bin/bash
 
-number1=100
+number1=bhagi
 number2=200
 
 sum=$(($number1+$number2))
