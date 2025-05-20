@@ -1,8 +1,10 @@
 #!/bin/bash
 
-number1=bhagi
+number1=400
 number2=200
 
+TIMESTAMP=$(date)
+echo "script executed at : $TIMESTAMP"
 sum=$(($number1+$number2))
 
 
