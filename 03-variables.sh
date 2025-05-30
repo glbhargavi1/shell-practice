@@ -1,4 +1,4 @@
-person1=Trump
+person1=Modi
 person2=Musk
 
 
