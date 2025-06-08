@@ -1,6 +1,7 @@
 #!/bin/bash
 
 NUMBER=$1
+NUMBER=$2
 
 
 
@@ -12,9 +13,9 @@ NUMBER=$1
 
 
 
-if [ $NUMBER -lt 10 ]
+if [ $NUMBER -lt $NUMBER ]
 then
     echo "Given number $NUMBER is less than 10"
 else 
-    echo "Given number is not less than 10"
+    echo "Given number $NUMBER is not less than 10"
 fi
