@@ -1,7 +1,7 @@
 #!/bin/bash
 
-NUMBER1=$1
-NUMBER2=$2
+NUMBER=$1
+NUMBER=$2
 
 
 
@@ -13,9 +13,9 @@ NUMBER2=$2
 
 
 
-if [ $NUMBER1 -lt $NUMBER2 ]
+if [ $NUMBER -lt $NUMBER ]
 then
-    echo "Given number $NUMBER1 is less than $NUMBER2"
+    echo "Given number $NUMBER is less than $NUMBER"
 else 
-    echo "Given number $NUMBER1 is not less than $NUMBER2"
-fi
+    echo "Given number $NUMBER is not less than $NUMBER"
+fi 
